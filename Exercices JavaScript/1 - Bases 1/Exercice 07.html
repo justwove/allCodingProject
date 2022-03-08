@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>JavaScript : Exercice 8</title>
+		<script>
+			/*********************************
+			***********PRESENTATION***********
+			**********************************
+				Un tableau peut, non seulement, contenir des chaines de caractères et des nombres; mais également un ou plusieurs autres tableaux.
+				Par exemple :
+			*/
+				var desFruits = ['fraise','melon','orange','pomme',['Golden','Gala','Pink lady'],'poire'];
+			/*
+				Pour afficher « Gala », je dois écrire :
+				alert(desFruits[4][1]);
+				Bien entendu, il n'y a pas de limite. Un tableau peut contenir un tableau contenant lui-même un tableau …
+			*/
+
+			/*********************************
+			*************EXERCICE*************
+			**********************************
+			** 1 **
+				Affichez le deuxième monument de Berlin, le cinquième de Paris et le troisième de Rome.
+			*/
+				var monuments = ['Berlin',['Mur de Berlin','Porte de Brandebourg','Château de Charlottenburg'] ,'Paris',['Notre-Dame', 'Tour-Eiffel', 'Beaubourg','Opera','Palais du Luxembourg'], 'Rome', ['Forum','Colisée','Chapelle Sixtine', 'Pantheon']];
+				alert(monuments[1][1])
+				alert(monuments[3][4])
+				alert(monuments[5][2])
+			/*
+			** 2 **
+				Faites à trois reprises une opération entre deux entrées du tableau ci-dessous (chezchez à chaque fois les valeurs nécessaires dans le tableau pour obtenir la bonne réponse).
+				Obtenez 320 à l'aide d'une multiplication.
+				Obtenez 10 à l'aide d'une division.
+				Obtenez 755 à l'aide d'une addition.
+			*/
+				var desNombres = [40,58,[478,85,745,8],74,[72,14],[80,741,97]];
+				
+			/*
+			** 3 **
+				En utilisant  uniquement le tableau ci-dessous, écrivez, à l'aide de concaténations, la phrase suivante :
+				Les 6 vaches sont devant la maison.
+			*/
+				var desMorceaux = [6,['herbe','route','maison','sont'],['rue',[5,'vaches','Les','mouton'],'chèvre'],['devant','lui','la'],' ',['!','.']];
+		</script>
+	</head>
+	<body>
+		<h1>Mon nouveau document</h1>
+		<p>Premier paragraphe</p>
+		<p>Deuxième paragraphe</p>
+		<noscript>
+			<p>Veuillez activer JavaScript</p>
+		</noscript>
+	</body>
+</html>

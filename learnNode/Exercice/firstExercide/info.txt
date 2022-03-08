@@ -1,0 +1,2 @@
+Hi, this is info.text file with some random text info. I will try to read and write to this file with Node.js. Good luck to me!
+

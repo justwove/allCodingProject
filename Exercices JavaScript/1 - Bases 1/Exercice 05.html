@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>JavaScript : Exercice 6</title>
+		<script>
+			/*********************************
+			***********PRESENTATION***********
+			**********************************
+				Une variable peut, non seulement, contenir une information (une chaîne de caractères ou un nombre); mais également un ensemble d'information.
+				On appelle cet ensemble un tableau.
+				Il s'écrit de la façon suivante :
+			*/
+			var monTableau = ['lunette', 15, 3.7, 'soleil'];
+			/*	
+				alert(monTableau[3]); affichera « soleil » dans une boite de dialogue.
+				Le nombre entre crochet, l'indice, permet de viser une valeur du tableau. Il est important de noter que le premier indice est le 0 (alert(monTableau[0]; affichera « lunette »).
+			*/
+
+			/*********************************
+			*************EXERCICE*************
+			**********************************
+			** 1 **
+				Manipulez le tableau ci-dessous. Affichez dans une première boite de dialogue « trois » et dans une seconde « 4.5»
+			*/	
+			var premierTableau = ['un',2,'trois',4.5,'un dernier texte'];
+			alert(premierTableau[2])
+			
+			/*
+			** 2 **
+				Manipulez le même tableau en affichant dans une boite de dialogue la somme des deux nombre du tableau. 
+			*/	
+			alert(premierTableau[1] + premierTableau[3]);
+
+			/*	
+			** 3 **
+				Affichez dans une boite de dialogue l'ensemble de la phrase contenue dans le tableau ci-dessous. Veillez à mettre des espaces entre les mots et un point à la fin de la phrase.
+			*/
+			var message = ['Il','fait','beau'];
+			alert(message.join(' ') + '.');
+		</script>
+	</head>
+	<body>
+		<h1>Mon nouveau document</h1>
+		<p>Premier paragraphe</p>
+		<p>Deuxième paragraphe</p>
+		<noscript>
+			<p>Veuillez activer JavaScript</p>
+		</noscript>
+	</body>
+</html>

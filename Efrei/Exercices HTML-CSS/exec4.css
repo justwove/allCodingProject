@@ -1,0 +1,46 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+#text {
+    background-color: white;
+}
+
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 40%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+  
+/* Control the left side */
+.gauche {
+left: 20%;
+width : 30%;
+
+}
+
+/* Control the right side */
+.droite {
+right: 160;
+}
+
+img { 
+    position: absolute; 
+    clip: rect(0, 50px, 100px, 0);
+}

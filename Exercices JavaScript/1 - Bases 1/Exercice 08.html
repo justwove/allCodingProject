@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>JavaScript : Exercice 9</title>
+		<script>
+			/*********************************
+			***********PRESENTATION***********
+			**********************************
+				Dans la programmation en JavaScript, on prend l'habitude de déclarer une function dans l'entête ainsi :
+			*/
+			var maFonction = function(){
+				alert('La fonction alert est déclenchée dans la fonction contenue dans la variable maFonction');
+			};
+			/*
+				Cette fonction est, désormais, stockée en mémoire vive et, de ce fait, disponible dans l'emplacement (la variable) maFonction. À partir de la ligne de la déclaration, maFonction peut être utilisée partout dans le document dans les emplacements réservés au scripts JavaScript.
+				
+				Cette fonction peut être utilisée de façon directe (appel de la fonction) ou par l'entremise d'un attribut d'événement tels onclick, onload …
+				Par exemple :
+				onclick="nomDeLaFonction();"
+				Cet attribut d'événement est écrit dans une balise html.
+			*/
+			
+			/*********************************
+			*************EXERCICE*************
+			**********************************
+			** 1 **
+				Exécutez la fonction maFonction ici (c'est à dire après ce commentaire).
+			*/
+
+			/*
+			** 2 **
+				Exécutez la fonction maFonction AU moment où l'utilisateur clique sur le premier paragraphe. Il faut utiliser l'attribut d'événement onclick.
+			*/
+
+			/*
+			** 3 **
+				Exécutez la fonction maFonction APRÈS le chargement du document. Il faut utiliser l'attribut d'événement onload.
+			*/
+
+			/*
+				4. Exécuter la fonction maFonction APRÈS que le navigateur ait chargé et affiché le premier paragraphe et AVANT qu'il ait chargé et affiché le second paragraphe.
+			*/
+
+			/*
+				5. Créez un fichier externe. Copiez-y la déclaration de la fonction maFonction. Supprimez cette fonction de ce bloc de scripts. Indiquez au navigateur qu'il doit télécharger le fichier externe créé. Toutes les exécutions de la fonction maFonction (de la 1 à la 4) doivent fonctionner.
+			*/
+		</script>
+	</head>
+	<body>
+		<h1>Mon nouveau document</h1>
+		<p>Premier paragraphe</p>
+		<p>Deuxième paragraphe</p>
+		<noscript>
+			<p>Veuillez activer JavaScript</p>
+		</noscript>
+	</body>
+</html>

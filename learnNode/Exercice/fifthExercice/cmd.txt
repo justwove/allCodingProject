@@ -1,0 +1,9 @@
+npm init
+# Use default answers to the questions
+npm install slugify                     // Install a package            
+npm install create-react-app -g         // Install package globally (All users)
+sudo npm install create-react-app -g    // Same but with admin privileges
+npm install -g npm@8.5.3                // Update npm to specific version
+sudo npm install -g npm@8.5.3           // Same but with admin privileges
+npm update slugify                      // Update a package
+npm uninstall slugify                   // Uninstall a package

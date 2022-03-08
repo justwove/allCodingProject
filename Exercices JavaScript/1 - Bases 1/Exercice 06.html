@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>JavaScript : Exercice 7</title>
+		<script>
+			/*********************************
+			***********PRESENTATION***********
+			**********************************
+				Il est possible d'ajouter des valeurs à un tableau.
+				Par exemple :
+				var monTableau = [15,'une information',24];
+				monTableau[3] = 'un autre info';
+			*/
+
+			/*********************************
+			*************EXERCICE*************
+			**********************************
+			** 1 **
+				Ajoutez les deux derniers jours de la semaine au tableau et affichez le dernier indice du tableau dans une boite de dialogue.
+			*/	
+			var unSimpleTableau = ['lundi','mardi', 'mercredi', 'jeudi', 'vendredi'];
+			unSimpleTableau.push('samedi');
+			unSimpleTableau.push('dimanche');
+			alert(unSimpleTableau);
+			
+			/*
+			** 2 **
+				Ajoutez une nouvelle entrée au tableau contenant le premier et le dernier jour de la semaine séparés par un espace (utilisez une concaténation).
+			*/
+			unSimpleTableau.push(unSimpleTableau[5] + ' ' + unSimpleTableau[6]);
+			alert(unSimpleTableau);
+			
+		</script>
+	</head>
+	<body>
+		<h1>Mon nouveau document</h1>
+		<p>Premier paragraphe</p>
+		<p>Deuxième paragraphe</p>
+		<noscript>
+			<p>Veuillez activer JavaScript</p>
+		</noscript>
+	</body>
+</html>

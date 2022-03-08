@@ -1,0 +1,28 @@
+<!--
+	En HTML, un formulaire comprend au-minimum un conteneur (balise form) et une balise input de type submit. Cette dernière possède un attribut value contenant le texte affiché à l'utilisateur.
+	La balise form possède, au-moins, deux attributs : method et action.
+	method : manière dont le contenu du formulaire est envoyé au serveur (GET ou POST)
+	action : adresse du serveur à laquelle est envoyé le formulaire
+	Ensuite, on insère autant de balises input supplémentaires que de champs de saisie pour l'utilisateur (prénom, nom, adresse …). On donne toujours deux attributs à un input, name et type.
+-->
+
+<!--
+	1 - Réalisez un document contenant un formulaire
+	2 - Ce formulaire est de type POST et comprend une balise input de type text et une balise input de type submit avec le texte confirmer.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Exercice 1</title>
+</head>
+<body>
+	<form action="" method="post">
+		<label for="txt">Zone de texte</label>
+		<input type="text" name="texte" id="texte">
+		<label for="confirm">Confirmer</label>
+		<input type="submit" id="confirm">
+</body>
+</html>

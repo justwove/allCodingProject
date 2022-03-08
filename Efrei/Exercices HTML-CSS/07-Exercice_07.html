@@ -1,0 +1,29 @@
+<!--
+    Le module CSS Grid Layout (modèle de disposition en grille) permet de réaliser des mises en page en divisant une zone d'affichage en régions. Ce découpage va permettre de créer une grille virtuelle dans laquelle nous pourrons disposer les différents éléments HTML que nous souhaitons mettre en forme.
+
+    Pour créer cette grille, les différentes balises html mis en page doivent être dans une balise qui jouera le rôle de conteneur.
+    Ce dernier recevra la déclaration "display: grid" ainsi qu'une déclaration de son canevas avec grid-template-columns et/ou grid-template-rows. Par exemple, si nous avons besoin de deux colonnes de taille égale dans le conteneur, nous ferons la déclaration suivante : 
+
+    .conteneur {
+      display: grid;
+      grid-template-columns: 250px 250px;
+    }
+
+    Nous avons donc créé deux emplacements dans notre grille. Ils sont sur la même ligne et font chacun 250 pixels de large.
+
+    Nous plaçons, ensuite, les deux balises html situées dans le conteneur de la façon suivante : 
+
+    .element1 {
+      grid-column: 1;
+    }
+
+    .element1 {
+      grid-column: 2;
+    }
+  -->
+
+<!-- 
+	1 - Créez un document.
+	2 - Vous y insérez un h1 et trois paragraphes.
+	3 - Disposez les trois paragraphes côte à côte. Le premier paragraphe a une largeur égale à la moitié du conteneur. Le second et le troisième ont une largeur égale à un quart du conteneur.
+ -->
